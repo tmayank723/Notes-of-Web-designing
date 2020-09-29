@@ -1,0 +1,79 @@
+*{
+	margin:0px;
+	padding: 0px;
+ }
+
+    .a{
+		background-color: #0000009c;
+	  }
+     .navbar-nav .nav-item .nav-link
+	 {
+	       padding-right:40px;
+           color: #fff;           
+           font-weight: 400;
+           font-size: 18px;
+	 }
+	.logo2{
+	 	display: none;
+	 }
+	  @media(max-width: 600px)
+	 {
+	 	.logo2{
+	 		display: block;
+	 		background-color: yellow;
+
+	 	}
+	 	.logo{
+	 		display: none;
+
+	 	}
+	 	.a{
+		background-color:#fec724;
+	       }
+	    img{
+	    	font-size:50px; 
+	    }   
+	 }
+	 .imgtitle{
+	 	position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+	 }
+	 .button{
+	 	background-color: #fbac29;
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        color: white;
+    }
+    .image2{
+	 	background: url(../img/aboutback.jpg);
+	 	height:400px;
+	 	width: 100%;
+       
+        margin-top: 50px;
+	 }
+	 .para{
+	 	font-size: 17px;
+        color: white;
+        line-height: 40px;
+        word-spacing: 3px;
+        font-family: Montserrat,sans-serif;
+	 }
+	 .container{
+	 	    padding-top: 30px;          
+           font-family: prague;
+          letter-spacing: 3px;
+	 }
+	 .button{
+	 	background-color: #fbac29;
+        border-radius: 5px;
+        height: 40px;
+        width: 200px;
+        color: black;
+	 }
+	 
